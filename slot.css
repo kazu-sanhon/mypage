@@ -30,7 +30,7 @@ body {
 .slot-machine {
   display: flex;
   justify-content: center;
-  margin: 80px 0;
+  margin: min(10vw, 10vh) 0;
 }
 
 .slot {
@@ -45,8 +45,8 @@ body {
 }
 
 .buttons button {
-  padding: 1rem 4rem;
-  font-size: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
   background-color: #4CAF50;
   color: white;
   border: none;
