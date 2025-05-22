@@ -26,9 +26,6 @@ function stopSlot(index) {
     // 最初の要素のテキストを結果として採用
     results[index] = slots[index][0].textContent;
 
-    // if (results.every(r => r !== "")) {
-    //   document.getElementById("result").textContent = `結果: ${results.join("")}`;
-    // }
   }
 }
 
@@ -42,6 +39,4 @@ function resetSlots() {
     startSlot(i);
   }
 
-//   // 結果をクリア
-//   document.getElementById("result").textContent = "";
 }
