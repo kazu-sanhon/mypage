@@ -8,7 +8,6 @@ body {
   width: 100%;
   max-width: 100vh;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 .container {
@@ -31,7 +30,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-58%, -51%) scaleX(1.4);
+  transform: translate(-58%, -48%) scaleX(1.4);
   font-size: 85vmin; 
   color: #000;
   pointer-events: none;
